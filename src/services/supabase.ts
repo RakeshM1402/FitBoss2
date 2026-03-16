@@ -2,8 +2,8 @@ import { createClient } from '@supabase/supabase-js';
 import 'react-native-url-polyfill/auto'; // Required for Supabase in React Native 
 
 // In a real production app, these would come from react-native-dotenv or similar
-const SUPABASE_URL = process.env.EXPO_PUBLIC_SUPABASE_URL || 'https://mock-url.supabase.co';
-const SUPABASE_ANON_KEY = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY || 'mock-anon-key';
+const SUPABASE_URL = process.env.EXPO_PUBLIC_SUPABASE_URL || 'https://vszymjdbrkwzsxghamrp.supabase.co';
+const SUPABASE_ANON_KEY = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY || 'sb_publishable_uprOQ8EtlVqwfyj_ymnDJQ_SeLldIpv';
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
   auth: {
